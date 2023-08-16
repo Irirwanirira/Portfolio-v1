@@ -31,7 +31,7 @@ const MySkills = () => {
 
                  <div>
                     <p className="font-playfair font-semibold text-4xl mb-5">
-                        My <span className="text-red">SKILLS</span>
+                        My <span className="text-green">SKILLS</span>
                     </p>
                     <div className="flex justify-center mt-5 mb-[3rem]">
                         <LineGradient width="w-1/3"/>

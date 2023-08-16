@@ -66,7 +66,7 @@ const navbarBackground = isTopOfPage ? "" : 'bg-[#0D0D0F]';
                 {/* Mobile menu popup */}
                
                 {!isAboveSmallScreens && isMenuToggled && (
-                    <div className='fixed right-0 bottom-0 h-full bg-blue w-[300]'>
+                    <div className='fixed right-0 bottom-0 h-full bg-green text-white w-[300]'>
                         {/* close icon */}
                         <div className='flex justify-end p-12'>
                             <button onClick={()=>setIsMenuToggled(!isMenuToggled)}>
@@ -75,7 +75,7 @@ const navbarBackground = isTopOfPage ? "" : 'bg-[#0D0D0F]';
                         </div>
 
                         {/* Menu Items */}
-                        <div className='flex flex-col gap-10 ml-[33%] text-deep-blue'>
+                        <div className='flex flex-col gap-10 ml-[33%] text-white'>
 
                         <Link
                         page='Home'
