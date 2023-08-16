@@ -5,12 +5,12 @@ import DotGroup from './scenes/DotGroup';
 import Landing from './scenes/Landing';
 import MySkills from './scenes/MySkills'
 import Projects from './scenes/Projects'
-import Testimonials from './scenes/Testimonials'
+// import Testimonials from './scenes/Testimonials'
 import Contact from './scenes/Contact'
 import Footer from './scenes/Footer'
 
 
-import LineGradient from './components/LineGradient';
+// import LineGradient from './components/LineGradient';
 
 function App() {
   const [selectedPage, setSelectedPage] = useState('home');

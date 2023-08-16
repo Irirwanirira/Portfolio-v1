@@ -68,3 +68,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+{/* <motion.div variants={ProjectVariant} className="relative">
+<div className={overlayStyles}>This is a simple app calculator, which helps to operate different basic mathematical operations like addition, multiplication, subtraction, and division.
+
+
+    <p className="text-2xl font-playfair"> {title}</p>
+    <p className="mt-7">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores 
+        molestiae enim commodi pariatur possimus autem.
+    </p>
+</div>
+<img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle}/>
+
+</motion.div> */}

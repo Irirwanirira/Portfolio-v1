@@ -95,12 +95,7 @@ const navbarBackground = isTopOfPage ? "" : 'bg-[#0D0D0F]';
                         setSelectedPage={setSelectedPage}
 
                         />
-                        <Link
-                        page='Testimonials'
-                        selectedPage={selectedPage}
-                        setSelectedPage={setSelectedPage}
 
-                        />
                         <Link
                         page='Contacts'
                         selectedPage={selectedPage}
