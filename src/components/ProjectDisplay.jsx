@@ -73,7 +73,7 @@ const Project = ({ works }) => {
                         target='blank'
                         className=' '
                       >
-                        On Cite
+                        On Site
                       </a>
                     </button>
                     <button className='border-2 p-2 my-4 font-semibold font-playfair hover:bg-blue'>
