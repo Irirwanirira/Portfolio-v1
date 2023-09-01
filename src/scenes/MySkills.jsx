@@ -4,11 +4,11 @@ import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
-// import Node from '../assets/node.png';
+import Node from '../assets/node.png';
 import FireBase from '../assets/firebase.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
-// import Mongo from '../assets/mongo.png';
+import Mongo from '../assets/mongo.png';
 
 
 const MySkills = () => {
@@ -172,6 +172,43 @@ const MySkills = () => {
                 <div className='shadow-md  shadow-green hover:scale-110 duration-500 flex flex-col items-center '>
                     <img className='w-20 mx-auto' src={Tailwind} alt="HTML icon" />
                     <p className='my-4'>TAILWIND</p>
+                </div>
+
+                </motion.div>
+                <motion.div
+                    className="md:w-2/3 mt-10"
+                    initial='hidden'
+                    whileInView='visible'
+                    viewport={{once:true, amount: 0.5}}
+                    transition={{delay:0.9, duration:0.5}}
+                    variants={{
+                        hidden:{opacity:0, y:50},
+                        visible:{opacity:1, y:0}
+                    }}
+                >
+
+                <div className='shadow-md  shadow-green hover:scale-110 duration-500 flex flex-col items-center '>
+                    <img className='w-20 mx-auto' src={Node} alt="HTML icon" />
+                    <p className='my-4'>NODE</p>
+                </div>
+
+                </motion.div>
+
+                <motion.div
+                    className="md:w-2/3 mt-10"
+                    initial='hidden'
+                    whileInView='visible'
+                    viewport={{once:true, amount: 0.5}}
+                    transition={{delay:0.9, duration:0.5}}
+                    variants={{
+                        hidden:{opacity:0, y:50},
+                        visible:{opacity:1, y:0}
+                    }}
+                >
+
+                <div className='shadow-md  shadow-green hover:scale-110 duration-500 flex flex-col items-center '>
+                    <img className='w-20 mx-auto' src={Mongo} alt="HTML icon" />
+                    <p className='my-4'>MongoDb</p>
                 </div>
 
                 </motion.div>
