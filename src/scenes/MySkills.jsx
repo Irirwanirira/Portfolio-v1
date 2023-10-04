@@ -16,9 +16,9 @@ import { motion } from "framer-motion";
 
 const MySkills = () => {
    
-    const  frontend = ["HTML", "CSS", "JavaScript", "React.js"]
-    const  backend = ["HTML", "CSS", "JavaScript", "React.js"]
-    const  tools = ["HTML", "CSS", "JavaScript", "React.js"]
+    const  frontend = ["React.js", "JavaScript", "CSS","HTML" ]
+    const  backend = ["Express", "NodeJs", "Ruby", "MongoDb", "Postgres"]
+    const  tools = ["Figma", "UI/UX", "Version Control","Sass","Tailwind CSS", "Testing","npm", "AJAX", "JSON", "Docker"]
 
 
 
@@ -58,20 +58,25 @@ const MySkills = () => {
 
            <div className="md:flex md: justify-around mt-16">
                 <div>
-                <h1 className="text-green font-playfair font-semibold text-4xl mb-5">Front-End</h1>
+                <h1 className="text-yellow font-playfair font-semibold text-4xl mb-5">Front-End</h1>
                     <ul className="flex flex-col gap-[0.5rem] mt-[0.5rem]">
-                     {frontend.map(skill=> <li>{skill}</li>) }
+                     {frontend.map(skill=> <li 
+                     className="border-1 p-2 font-semibold font-playfair bg-green text-center"
+                     >{skill}</li>) }
                     
                     </ul>
                 </div>
                 <div>
-                    <h1 className="text-green font-playfair font-semibold text-4xl mb-5">Back-End</h1>
+                    <h1 className="text-yellow font-playfair font-semibold text-4xl mb-5">Back-End</h1>
                     <ul className="flex flex-col gap-[0.5rem] mt-[0.5rem]">
-                     {backend.map(skill=> <li className="">{skill}</li>) }
+                     {backend.map(skill=> <li 
+                        className="border-1 p-2 font-semibold font-playfair bg-green text-center"
+
+                     >{skill}</li>) }
                     </ul>
                 </div>
                 <div>
-                <h1 className="text-green font-playfair font-semibold text-4xl mb-5">Tools</h1>
+                <h1 className="text-yellow font-playfair font-semibold text-4xl mb-5">Tools</h1>
                     <ul className="flex flex-col gap-[0.5rem] mt-[0.5rem]">
                         {
                             tools.map(tool => <li>{tool}</li>)  
