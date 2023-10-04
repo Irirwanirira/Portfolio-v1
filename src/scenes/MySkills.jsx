@@ -1,17 +1,27 @@
+// import { element } from "prop-types";
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
-import HTML from '../assets/html.png';
-import CSS from '../assets/css.png';
-import JavaScript from '../assets/javascript.png';
-import ReactImg from '../assets/react.png';
-import Node from '../assets/node.png';
-import FireBase from '../assets/firebase.png';
-import GitHub from '../assets/github.png';
-import Tailwind from '../assets/tailwind.png';
-import Mongo from '../assets/mongo.png';
+// import { link } from "fs";
+// import HTML from '../assets/html.png';
+// import CSS from '../assets/css.png';
+// import JavaScript from '../assets/javascript.png';
+// import ReactImg from '../assets/react.png';
+// import Node from '../assets/node.png';
+// import FireBase from '../assets/firebase.png';
+// import GitHub from '../assets/github.png';
+// import Tailwind from '../assets/tailwind.png';
+// import Mongo from '../assets/mongo.png';
+
 
 
 const MySkills = () => {
+   
+    const  frontend = ["HTML", "CSS", "JavaScript", "React.js"]
+    const  backend = ["HTML", "CSS", "JavaScript", "React.js"]
+    const  tools = ["HTML", "CSS", "JavaScript", "React.js"]
+
+
+
 
     return ( 
 
@@ -46,7 +56,32 @@ const MySkills = () => {
 
             {/* Skills */}
 
-            <div className="md:grid md:grid-cols-4 md:justify-between mt-16 gap-1">
+           <div className="md:flex md: justify-around mt-16">
+                <div>
+                    <h1>Front-End</h1>
+                    <ul>
+                     {frontend.map(skill=> <li>{skill}</li>) }
+                    
+                    </ul>
+                </div>
+                <div>
+                    <h1 className="text-green font-playfair font-semibold text-4xl mb-5">Back-End</h1>
+                    <ul className="flex flex-col gap-[0.5rem] mt-[0.5rem]">
+                     {backend.map(skill=> <li className="">{skill}</li>) }
+                    </ul>
+                </div>
+                <div>
+                    <h1>Front-End</h1>
+                    <ul>
+                        {
+                            tools.map(tool => <li>{tool}</li>)  
+                        }
+                    </ul>
+                </div>           
+            </div>
+
+
+            {/* <div className="md:grid md:grid-cols-4 md:justify-between mt-16 gap-1">
 
                 <motion.div
                     className="md:w-2/3 mt-10"
@@ -211,8 +246,8 @@ const MySkills = () => {
                     <p className='my-4'>MongoDb</p>
                 </div>
 
-                </motion.div>
-            </div>
+                </motion.div> */}
+            {/* </div> */}
         </section>
      );
 }
