@@ -69,7 +69,7 @@ My portfolio is a collection of my works and projects that highlights my skills 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://i-joseph.netlify.app/)
+- [Live Demo Link](https://dev--i-joseph.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

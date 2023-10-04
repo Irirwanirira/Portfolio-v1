@@ -5,27 +5,38 @@ import Project from '../components/ProjectDisplay';
 const works = [
   {
     id: 1,
+    image: '../assets/tracker.png',
+    title: 'Expense Tracker',
+    description:'Expense Tracker is a user-friendly app that helps you track your expenses and income. It alerts you when your expenses surpass your balance, and rewards you when you are effectively managing your finances.',
+    language: ['MongoDB', 'Express.Js', 'React.Js', 'Node.js'],
+    liveLink:
+      'https://expense-tracker-ochre-ten.vercel.app/',
+    source: 'https://github.com/Irirwanirira/expense-tracker',
+  },
+
+  {
+    id: 2,
     image: '../assets/rockets.png',
     title: 'Space Traveler',
     description:
       'This is a react project that renders rocket data as well as mission data from an API onto the UI. This SPA allows users to reserve rockets and join missions, once that is done their data will be rendered onto a profile page showing what has been reserved and/or joined.',
-    language: ['JavaScript', 'CSS', 'React'],
+    language: ['JavaScript', 'CSS', 'React.Js'],
     liveLink:
-      'https://deploy-preview-32--strong-heliotrope-adde83.netlify.app/',
+      'https://space-x-project1.netlify.app/',
     source: 'https://github.com/Irirwanirira/space-x-react-project',
   },
   {
-    id: 2,
+    id: 3,
     image: '../assets/netFlix.png',
     title: 'Netflix Clone',
     description:
-      "The interface of this React application is designed to display a list of movies sourced from TMD. However, the user needs to register and log in to access the app. Firebase stores all user details for authentication purposes. Unfortunately, the TMD database doesn't provide us with links to stream the entire movie collection. Therefore, we have only incorporated a single video for all the movies available in the app.",
+    "This app shows movies from TMD, but requires users to register and log in. Only one video is available for all movies since TMD doesn't provide streaming links. Firebase stores user details for authentication.",
     language: ['React', 'FireBase', 'StyleComponent'],
     liveLink: 'https://i-joseph-dev.netlify.app/',
     source: 'https://github.com/Irirwanirira/Netflix-clone',
   },
   {
-    id: 3,
+    id: 4,
     image: '../assets/calculator.png',
     title: 'Math magician',
     description:
@@ -35,16 +46,6 @@ const works = [
     source: 'https://github.com/Irirwanirira/math-magician',
   },
 
-  {
-    id: 4,
-    image: '../assets/transact.png',
-    title: 'E-neza TrANZACT',
-    description:
-      'E-neza App is a franchised online mobile application that allows the user to manage his/her budget: they have a list of transactions associated with a category so that the user can see how much money they spend on a particular category.',
-    language: ['Ruby-on-Rails', 'Database', 'CSS'],
-    liveLink: 'https://budget-app-deploy.onrender.com/',
-    source: 'https://github.com/Irirwanirira/budget-app',
-  },
   {
     id: 5,
     image: '../assets/library.png',

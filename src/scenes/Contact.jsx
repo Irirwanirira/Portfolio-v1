@@ -15,7 +15,6 @@ const Contact = () => {
   return (
     <section
         id='contacts'
-      className='py-48'
     >
       {/* Headings */}
       <motion.div

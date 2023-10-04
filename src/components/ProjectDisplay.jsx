@@ -67,7 +67,7 @@ const Project = ({ works }) => {
                   </div>
 
                   <div className='flex gap-[2rem]'>
-                    <button className='border-2 p-2 my-4 font-semibold font-playfair bg-green hover:bg-black'>
+                    <button className='border-2 p-2 my-4 font-semibold font-playfair bg-green'>
                       <a
                         href={completed.liveLink}
                         target='blank'
@@ -76,7 +76,7 @@ const Project = ({ works }) => {
                         On Site
                       </a>
                     </button>
-                    <button className='border-2 p-2 my-4 font-semibold font-playfair hover:bg-blue'>
+                    <button className='border-2 p-2 my-4 font-semibold font-playfair'>
                       <a
                         href={completed.source}
                         target='blank'

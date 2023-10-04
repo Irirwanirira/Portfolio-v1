@@ -3,7 +3,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import SocialMediaIcons from "../components/SocialMediaIcon";
 import {HiArrowNarrowRight} from 'react-icons/hi'
 
-const Landing = ({ setSelectedPage }) => {
+const Landing = ({ setSelectedPage, isDarkMode }) => {
 
     return (
         <section id='home' className="flex justify-start items-start md:justify-between md:items-center gap-16 py-10">
@@ -31,7 +31,7 @@ const Landing = ({ setSelectedPage }) => {
                         </span>
                     </p>
                     <h2 className='font-playfair font-semibold text-center sm:text-start text-4xl sm:text-7xl'>
-                        I'm a Full Stack Developer.
+                        I'm a Front end Developer.
                     </h2>
                     <p className="mt-10 mb-7 text-sm text-center sm:text-start sm:w-[70%]">
                     I can help you build a product, feature or a website. look through 
@@ -54,9 +54,11 @@ const Landing = ({ setSelectedPage }) => {
                       }}>
 
                     <AnchorLink
-                        className='group border-2 flex items-center rounded-sm py-3 px-7 font-semibold hover:bg-green
-                        hover:text-white transition duration-500'
-                        onClick={()=> setSelectedPage('contact')}
+                        className={`border-2 
+                         group flex 
+                        items-center rounded-sm py-3 px-7 font-semibold 
+                        hover:bg-green hover:text-white transition duration-500`}
+                      onClick={()=> setSelectedPage('contact')}
                         href="#contacts"
                     >
                         Contact Me 
@@ -79,7 +81,7 @@ const Landing = ({ setSelectedPage }) => {
                   }}
                 >
                     
-                <SocialMediaIcons />
+                <SocialMediaIcons isDarkMode = {isDarkMode}/>
                     
                 </motion.div>
 

@@ -16,6 +16,11 @@ function App() {
   const [selectedPage, setSelectedPage] = useState('home');
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)")
   const [isTopOfPage, setIsTopOfPage] = useState(true)
+  const [isDarkMode, setIsDarkMode]= useState(false)
+
+  const toggleDarkMode = () => {
+    setIsDarkMode(!isDarkMode);
+  };
 
   useEffect(()=> {
     const handleScroll = () => {
@@ -26,13 +31,17 @@ function App() {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   },[]);
+
   return (
-    <div className="app bg-deep-blue flex flex-col">
+    <div className={isDarkMode ? "app bg-deep-blue flex flex-col": "bg-white text-black"}>
       <Navbar 
         isTopOfPage={isTopOfPage}
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
+        isDarkMode={isDarkMode}
+        toggleDarkMode={toggleDarkMode}
       />
+
             <div className='w-5/6 mx-auto md:h-full'>
         {isAboveMediumScreens && (
           <DotGroup
@@ -44,18 +53,15 @@ function App() {
       </div>
       
       <div  className='w-5/6 mx-auto'>
-        <MySkills />
+        <MySkills isDarkMode={isDarkMode}
+/>
       </div>
 
       <div  className='w-5/6 mx-auto'>
         <Projects />
       </div>
 
-      {/* <div  className='w-5/6 mx-auto md:h-full'>
-        <Testimonials />
-      </div> */}
-
-      <div  className='w-5/6 mx-auto md:h-full mb-[2rem]'>
+      <div  className='w-5/6 mx-auto mb-[2rem]'>
         <Contact />
       </div>
 

@@ -1,44 +1,39 @@
-const SocialMediaIcons = () => {
+import React from 'react';
+import {  GithubSvg, LinkedinSvg, TwitterSvg } from '../assets/svgs';
+
+const SocialMediaIcons = ({ isDarkMode }) => {
   return (
-    <div className='flex justify-center md:justify-start my-10 gap-7'>
-      <a
-        className='hover:opacity-50 transition duration-500'
+    <div className={`flex justify-center md:justify-start my-10 gap-7`}>
+      <a 
+        className='hover:opacity-50 transition duration-500 bg-white p-2 rounded-full'
         href='https://www.linkedin.com/in/joseph-irirwanirira/'
         target='_blank'
         rel='noreferrer'
       >
-        <img
-          src='../assets/linkedin.png'
-          alt='linkedIn'
-        />
+        < LinkedinSvg isDarkMode={isDarkMode}/>
       </a>
 
       <a
-        className='hover:opacity-50 transition duration-500'
+        className={`hover:opacity-50 transition duration-500  bg-white p-2 rounded-full`}
         href='https://twitter.com/Iri_joseph'
         target='_blank'
         rel='noreferrer'
       >
-        <img
-          src='../assets/twitter.png'
-          alt='Twitter'
-        />
+        < TwitterSvg isDarkMode={isDarkMode}/>
+
       </a>
 
       <a
-        className='hover:opacity-50 transition duration-500'
+        className='hover:opacity-50 transition duration-500  bg-white p-2 rounded-full '
         href='https://github.com/Irirwanirira'
         target='_blank'
         rel='noreferrer'
       >
-        <img
-          src='../assets/github.png'
-          alt='gitHub'
-          className='w-[30px] h-[30px]'
-        />
+       < GithubSvg  isDarkMode={isDarkMode}/>
       </a>
     </div>
   );
 };
 
 export default SocialMediaIcons;
+
