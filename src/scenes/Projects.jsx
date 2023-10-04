@@ -37,16 +37,6 @@ const works = [
 
   {
     id: 4,
-    image: '../assets/transact.png',
-    title: 'E-neza TrANZACT',
-    description:
-      'E-neza App is a franchised online mobile application that allows the user to manage his/her budget: they have a list of transactions associated with a category so that the user can see how much money they spend on a particular category.',
-    language: ['Ruby-on-Rails', 'Database', 'CSS'],
-    liveLink: 'https://budget-app-deploy.onrender.com/',
-    source: 'https://github.com/Irirwanirira/budget-app',
-  },
-  {
-    id: 5,
     image: '../assets/library.png',
     title: 'Library',
     description:
