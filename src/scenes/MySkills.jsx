@@ -58,8 +58,8 @@ const MySkills = () => {
 
            <div className="md:flex md: justify-around mt-16">
                 <div>
-                    <h1>Front-End</h1>
-                    <ul>
+                <h1 className="text-green font-playfair font-semibold text-4xl mb-5">Front-End</h1>
+                    <ul className="flex flex-col gap-[0.5rem] mt-[0.5rem]">
                      {frontend.map(skill=> <li>{skill}</li>) }
                     
                     </ul>
@@ -71,8 +71,8 @@ const MySkills = () => {
                     </ul>
                 </div>
                 <div>
-                    <h1>Front-End</h1>
-                    <ul>
+                <h1 className="text-green font-playfair font-semibold text-4xl mb-5">Tools</h1>
+                    <ul className="flex flex-col gap-[0.5rem] mt-[0.5rem]">
                         {
                             tools.map(tool => <li>{tool}</li>)  
                         }
