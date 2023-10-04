@@ -1,27 +1,11 @@
-// import { element } from "prop-types";
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
-// import { link } from "fs";
-// import HTML from '../assets/html.png';
-// import CSS from '../assets/css.png';
-// import JavaScript from '../assets/javascript.png';
-// import ReactImg from '../assets/react.png';
-// import Node from '../assets/node.png';
-// import FireBase from '../assets/firebase.png';
-// import GitHub from '../assets/github.png';
-// import Tailwind from '../assets/tailwind.png';
-// import Mongo from '../assets/mongo.png';
-
-
 
 const MySkills = () => {
    
     const  frontend = ["React.js", "JavaScript", "CSS","HTML" ]
     const  backend = ["Express", "NodeJs", "Ruby", "MongoDb", "Postgres"]
     const  tools = ["Figma", "UI/UX", "Version Control","Sass","Tailwind CSS", "Testing","npm", "AJAX", "JSON", "Docker"]
-
-
-
 
     return ( 
 
@@ -77,9 +61,11 @@ const MySkills = () => {
                 </div>
                 <div>
                 <h1 className="text-yellow font-playfair font-semibold text-4xl mb-5">Tools</h1>
-                    <ul className="flex flex-col gap-[0.5rem] mt-[0.5rem]">
+                    <ul className="grid grid-cols-2 gap-[0.5rem] mt-[0.5rem] justify-between">
                         {
-                            tools.map(tool => <li>{tool}</li>)  
+                            tools.map(tool => <li
+                                className="border-1 p-2 font-semibold font-playfair bg-green text-center"
+                                >{tool}</li>)  
                         }
                     </ul>
                 </div>           
