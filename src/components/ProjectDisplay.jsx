@@ -76,7 +76,7 @@ const Project = ({ works }) => {
                         On Site
                       </a>
                     </button>
-                    <button className='border-2 p-2 my-4 font-semibold font-playfair hover:bg-blue'>
+                    <button className='border-2 p-2 my-4 font-semibold font-playfair hover:bg-red'>
                       <a
                         href={completed.source}
                         target='blank'

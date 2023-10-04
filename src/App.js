@@ -51,11 +51,7 @@ function App() {
         <Projects />
       </div>
 
-      {/* <div  className='w-5/6 mx-auto md:h-full'>
-        <Testimonials />
-      </div> */}
-
-      <div  className='w-5/6 mx-auto md:h-full mb-[2rem]'>
+      <div  className='w-5/6 mx-auto mb-[2rem]'>
         <Contact />
       </div>
 

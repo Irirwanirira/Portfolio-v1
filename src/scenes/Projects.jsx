@@ -19,7 +19,7 @@ const works = [
     image: '../assets/netFlix.png',
     title: 'Netflix Clone',
     description:
-      "The interface of this React application is designed to display a list of movies sourced from TMD. However, the user needs to register and log in to access the app. Firebase stores all user details for authentication purposes. Unfortunately, the TMD database doesn't provide us with links to stream the entire movie collection. Therefore, we have only incorporated a single video for all the movies available in the app.",
+    "This app shows movies from TMD, but requires users to register and log in. Only one video is available for all movies since TMD doesn't provide streaming links. Firebase stores user details for authentication.",
     language: ['React', 'FireBase', 'StyleComponent'],
     liveLink: 'https://i-joseph-dev.netlify.app/',
     source: 'https://github.com/Irirwanirira/Netflix-clone',
