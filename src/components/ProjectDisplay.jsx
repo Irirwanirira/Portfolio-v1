@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import LineGradient from './LineGradient';
+import { darkMode } from '../assets/svgs';
 
 const Project = ({ works }) => {
   return (
@@ -58,7 +59,7 @@ const Project = ({ works }) => {
                         return (
                           <p
                             key={skill.id}
-                            className='text-green bg-[#b4b0b0] p-1 rounded-r-md'
+                            className='text-green bg-[#b4b0b0] p-2'
                           >
                             {skill}
                           </p>
@@ -67,7 +68,7 @@ const Project = ({ works }) => {
                   </div>
 
                   <div className='flex gap-[2rem]'>
-                    <button className='border-2 p-2 my-4 font-semibold font-playfair bg-green'>
+                    <button className={ `${darkMode ? "text-white" : "text-black"} border-2 p-2 my-4 font-semibold font-playfair bg-green`}>
                       <a
                         href={completed.liveLink}
                         target='blank'
