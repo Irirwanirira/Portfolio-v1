@@ -8,7 +8,7 @@ const works = [
     image: '../assets/tracker.png',
     title: 'Expense Tracker',
     description:'Expense Tracker is a user-friendly app that helps you track your expenses and income. It alerts you when your expenses surpass your balance, and rewards you when you are effectively managing your finances.',
-    language: ['MongoDB', 'Express.Js', 'React.Js', 'Node.js'],
+    language: ['MongoDB', 'Express', 'React.Js'],
     liveLink:
       'https://expense-tracker-ochre-ten.vercel.app/',
     source: 'https://github.com/Irirwanirira/expense-tracker',
@@ -37,10 +37,10 @@ const works = [
   },
   {
     id: 4,
-    image: '../assets/calculator.png',
+    image: '../assets/cal.png',
     title: 'Math magician',
     description:
-      'This is a simple app calculator, which helps to operate different basic mathematical operations like addition, multiplication, subtraction, and division.',
+      'This is a straightforward application that provides basic mathematical operations, functioning as a calculator where you can easily perform various computations.',
     language: ['HTML', 'CSS', 'JavaScript'],
     liveLink: 'https://magical-torte-c172f0.netlify.app/',
     source: 'https://github.com/Irirwanirira/math-magician',

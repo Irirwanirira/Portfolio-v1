@@ -113,8 +113,8 @@ const Contact = () => {
 
                     <button
                         type='submit'
-                        className="p-5 bg-green text-white font-semibold mt-5 hover:bg-red
-                        hover:bg-black transition duration-500"
+                        className="p-5 bg-green text-white font-semibold mt-5
+                        transition duration-500"
                     >
                         LET'S COLLABORATE
 
