@@ -16,6 +16,18 @@ const works = [
 
   {
     id: 2,
+    image: '../assets/leaderboard.png',
+    title: 'Leaderboard',
+    description:
+      'This website is uncomplicated, showing a roster of players along with their scores. It utilizes an API to both submit and retrieve data concurrently. Users can input a players name and their scores directly on the interface',
+    language: ['JavaScript', 'CSS', 'HTML'],
+    liveLink:
+      'https://wonderful-youtiao-11d2e0.netlify.app/',
+    source: 'https://github.com/Irirwanirira/LeaderBoard',
+  },
+
+  {
+    id: 3,
     image: '../assets/rockets.png',
     title: 'Space Traveler',
     description:
@@ -26,7 +38,7 @@ const works = [
     source: 'https://github.com/Irirwanirira/space-x-react-project',
   },
   {
-    id: 3,
+    id: 4,
     image: '../assets/netFlix.png',
     title: 'Netflix Clone',
     description:
@@ -36,26 +48,16 @@ const works = [
     source: 'https://github.com/Irirwanirira/Netflix-clone',
   },
   {
-    id: 4,
-    image: '../assets/cal.png',
-    title: 'Math magician',
+    id: 5,
+    image: '../assets/mybrand.png',
+    title: 'My Brand',
     description:
-      'This is a straightforward application that provides basic mathematical operations, functioning as a calculator where you can easily perform various computations.',
-    language: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: 'https://magical-torte-c172f0.netlify.app/',
-    source: 'https://github.com/Irirwanirira/math-magician',
+      'My brand, essentially a portfolio, has been greatly enhanced with a backend section where an admin, can manage sent messages, perform CRUD operations on blogs via the UI, and add additional functionalities. Deployment may cause issues with displaying database information, but I can trigger it for you to explore the app.',
+    language: ['TypeScript','HTML', 'CSS'],
+    liveLink: 'https://irirwanirira.github.io/my-brand/src/',
+    source: 'https://github.com/Irirwanirira/my-brand',
   },
 
-  {
-    id: 5,
-    image: '../assets/library.png',
-    title: 'Library',
-    description:
-      'This is a library app that helps to control the library activities, it helps users to add books of their own and reserve books for reading if they want, all the library operations are saved on the database which is built with ruby on rails, it is simple to use for everyone.',
-    language: ['React', 'CSS', 'Ruby-on-Rails'],
-    liveLink: 'https://frontend-libba.onrender.com/signin',
-    source: 'https://github.com/Irirwanirira/FinalCapstone-Back-End',
-  },
 ];
 
 const Projects = () => {

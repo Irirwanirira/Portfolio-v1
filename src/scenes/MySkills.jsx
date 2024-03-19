@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const MySkills = ({isDarkMode}) => {
   const frontend = ['React.js', 'JavaScript', 'CSS', 'HTML'];
-  const backend = ['Express', 'NodeJs', 'Ruby', 'Postgres'];
+  const backend = ['Express', 'NodeJs', 'MongoDB', 'Postgres'];
   const tools = [
     'Figma',
     'UI/UX',
