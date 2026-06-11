@@ -27,10 +27,11 @@ const Navbar = ({
   const [isMenuToggled, setIsMenuToggled] = useState(false);
   const isAboveSmallScreens = useMediaQuery("(min-width: 768px)");
   const navbarBackground = isTopOfPage ? "" : "bg-green";
+  const lightModeBackground = "bg-grey";
 
   return (
     <nav
-      className={`${isDarkMode ? navbarBackground : "black"} z-40 w-full fixed top-0 py-6`}
+      className={`${isDarkMode ? navbarBackground : lightModeBackground} z-40 w-full fixed top-0 py-6`}
     >
       <div className="flex items-center justify-between mx-auto w-5/6">
         <AnchorLink      

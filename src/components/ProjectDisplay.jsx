@@ -56,7 +56,7 @@ const Project = ({ works }) => {
                         return (
                           <p
                             key={skill.id}
-                            className="text-green bg-[#b4b0b0] p-2"
+                            className="text-green bg-grey p-2"
                           >
                             {skill}
                           </p>
