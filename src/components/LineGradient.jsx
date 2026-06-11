@@ -1,7 +1,5 @@
-const LineGradient = ({width = 'w-full'}) => {
-    return ( 
-        <div className={`h-0.5 ${width} bg-red`}></div>
-     );
-}
- 
+const LineGradient = ({ width = "w-full" }) => {
+  return <div className={`h-0.5 ${width} bg-red`}></div>;
+};
+
 export default LineGradient;
