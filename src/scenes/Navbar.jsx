@@ -27,7 +27,7 @@ const Navbar = ({
   const [isMenuToggled, setIsMenuToggled] = useState(false);
   const isAboveSmallScreens = useMediaQuery("(min-width: 768px)");
   const navbarBackground = isTopOfPage ? "" : "bg-green";
-  const lightModeBackground = "bg-grey";
+  const lightModeBackground = isTopOfPage ? "" : "bg-grey";
 
   return (
     <nav
